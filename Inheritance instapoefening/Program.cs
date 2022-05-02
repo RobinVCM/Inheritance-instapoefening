@@ -9,7 +9,7 @@ namespace Inheritance_instapoefening
             Aangetekende_brief Brief = new Aangetekende_brief();
             InternationaleAangetekendeBrief Brief2 = new InternationaleAangetekendeBrief();
 
-            double dblAfstand;
+            double dblAfstand=0;
 
             Brief.ReisAfstand(dblAfstand);
             Brief.ReisTijd(dblAfstand);
